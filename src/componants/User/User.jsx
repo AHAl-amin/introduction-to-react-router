@@ -8,7 +8,7 @@ const User = () => {
     const users = useLoaderData()
     console.log(User)  
     return (
-        <div>
+        <div style={{width:'100vw'}}>
             <h2>Users:{users.length}</h2>
             <p>this is user part</p>
             
